@@ -13,7 +13,7 @@
                             <span t-field="o.partner_id.vat" /></span>
                         </div>
                     </div>
-                    <h2>
+                    <h2 style="font-weight:700;">
                         <span t-if="o.type == 'out_invoice' and (o.state == 'open' or o.state == 'paid')">
                         Invoice</span>
                         <span t-if="o.type == 'out_invoice' and o.state == 'proforma2'">
