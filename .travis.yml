@@ -25,6 +25,6 @@ script:
 notifications:
   webhooks:
           - http://server.betavision.com.br:8004
-          - http://requestb.in/x0ex4ox0
+          - http://requestb.in/1grez4j1
   slack: betavisionsistemas:wmLMXsENQK1Tq40kf0FUn9yT
 
