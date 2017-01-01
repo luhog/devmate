@@ -3,7 +3,7 @@
     <data>
         <template id="report_order_custom" inherit_id="sale.report_saleorder_document">
             <xpath expr="//div[@class='page']" position="replace">
-                <div class="page">
+                <div class="page" style="text-transform:uppercase;">
                     <div class="oe_structure" />
                     <div class="row">
                         <div class="col-xs-6">
