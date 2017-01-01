@@ -3,7 +3,7 @@
     <data>
         <template id="report_header_custom" inherit_id="report.external_layout_header">
             <xpath expr="//div[@class='header']" position="replace">
-                <div class="header" style="background-color:#1F9CD9;color:white;text-transform:uppercase;">
+                <div class="header" style="text-transform:uppercase;">
                     <div class="row">
                         <div class="col-xs-3">
                             <img t-if="company.logo"
@@ -18,7 +18,7 @@
                             <div style="border-bottom: 0px solid black;"></div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" style="background-color:#1F9CD9;color:white;">
                         <div class="col-xs-6" name="company_address">
                             <span t-field="company.partner_id"
                             t-field-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": true}'
