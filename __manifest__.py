@@ -29,7 +29,8 @@
         'report/sale_order.xml',
         'report/invoice.xml',
         'report/header.xml',
-        'report/footer.xml'
+        'report/footer.xml',
+        'report/paper_format.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
