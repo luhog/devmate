@@ -30,7 +30,8 @@
         'report/invoice.xml',
         'report/header.xml',
         'report/footer.xml',
-        'report/paper_format.xml'
+        'report/paper_format.xml',
+        'data/mail_template_data.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
