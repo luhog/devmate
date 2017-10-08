@@ -64,7 +64,9 @@ da ${object.company_id.name}.
             <field name="model_id" ref="mail.model_mail_message"/>
             <field name="auto_delete" eval="True"/>
             <field name="body_html"><![CDATA[<html>
-                <head></head>
+			    <head></head>
+		% set record = ctx.get('record')
+                % set company = record and record.company_id or user.company_id
                 <body style="margin: 0; padding: 0;">
                 <table border="0" width="100%" cellpadding="0" bgcolor="#ededed" style="padding: 20px; background-color: #ededed" summary="o_mail_notification">
                     <tbody>
@@ -76,11 +78,11 @@ da ${object.company_id.name}.
                             <tr>
                               <td valign="middle">
                                   <span style="font-size:20px; color:white; font-weight: bold;">
-                                      ${object.record_name}
+					  ${doc_name} ${object.record_name}
                                   </span>
                               </td>
                               <td valign="middle" align="right">
-                                  <img src="http://odoo10.betavision.com.br/web/binary/company_logo?db=testes10&company=1" style="padding: 0px; margin: 0px; height: auto; width: 80px;" alt="${user.company_id.name}">
+                                  <img src="/logo.png?company=${company.id}" style="padding: 0px; margin: 0px; height: auto; width: 80px;" alt="${company.name}">
                               </td>
                             </tr>
                           </table>
