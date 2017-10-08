@@ -1,0 +1,4 @@
+"autocmd BufWritePost * silent !sudo service odoo-server update pinnacle_custom > /dev/null
+nmap <silent> <special> <F4> :silent !rsync -avz -e 'ssh' ~/Projetos/odoo_mautic odoo@ubuntu:/opt/odoo/custom/addons/ >> /dev/null ;ssh odoo@ubuntu sudo service odoo update odoo_mautic >> /dev/null<CR>
+nmap <F6> :silent %!tidy --indent auto -config ~/.tidy.conf --indent-spaces 2  --quiet yes --show-body-only auto --show-errors 0 --wrap 0 - <CR><CR>
+nmap <F7> :silent %!tidy --indent auto --indent-spaces 4 -xml -i --quiet yes --wrap 90 -<CR>
