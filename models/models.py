@@ -36,7 +36,7 @@ class SaleOrder(models.Model):
             'default_template_id': template_id,
             'default_composition_mode': 'comment',
             'mark_so_as_sent': True,
-            'custom_layout': "sale.mail_template_data_notification_email_sale_order"
+            'custom_layout': "sale.mail_template_data_notification_email_sale_order2"
         })
         return {
             'type': 'ir.actions.act_window',
@@ -51,3 +51,10 @@ class SaleOrder(models.Model):
      
      
      
+class AccountInvoice(models.Model):
+     _inherit = ['account.invoice']
+      
+     @api.multi
+     def action_invoice_sent(self):
+        """ Open a window to compose an email, with the edi invoice template
+        '''
