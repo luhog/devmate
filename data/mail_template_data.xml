@@ -67,6 +67,7 @@ da ${object.company_id.name}.
 			    <head></head>
 		% set record = ctx.get('record')
                 % set company = record and record.company_id or user.company_id
+		% set doc_name = 'Cotação' if object.state in ('draft', 'sent') else 'Pedido de Venda'
                 <body style="margin: 0; padding: 0;">
                 <table border="0" width="100%" cellpadding="0" bgcolor="#ededed" style="padding: 20px; background-color: #ededed" summary="o_mail_notification">
                     <tbody>
@@ -78,7 +79,7 @@ da ${object.company_id.name}.
                             <tr>
                               <td valign="middle">
                                   <span style="font-size:20px; color:white; font-weight: bold;">
-					  ${doc_name} ${object.record_name}
+					${object.record_name}
                                   </span>
                               </td>
                               <td valign="middle" align="right">
