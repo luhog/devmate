@@ -75,8 +75,8 @@ da ${object.company_id.name}.
                       <!-- HEADER -->
                       <tr>
                         <td align="center" style="min-width: 590px;">
-                          <table width="590" height="250" border="0" cellpadding="0" style="min-width: 590px;background-image: url("https://s3-sa-east-1.amazonaws.com/betavision/Email+Marketing/Email+1/1.png"); padding: 20px;">
-                            <tr>
+                          <table width="590" height="250" border="0" cellpadding="0" bgcolor="#1f9cd9" style="min-width: 590px; background-color: rgb(31,156,217); padding: 20px;">
+                            <tr style="background-image:url(https://s3-sa-east-1.amazonaws.com/betavision/Email+Marketing/Email+1/1.png)">
                               <td valign="middle">
                                   <span style="font-size:20px; color:white; font-weight: bold;">
 					${object.record_name}
