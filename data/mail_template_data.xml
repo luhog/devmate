@@ -38,7 +38,7 @@ da ${object.company_id.name}.
     <br/><br/>
 % if is_online:
     <center>
-        <a href="${access_url}" style="background-color: #1f9cd9; padding: 20px; text-decoration: none; color: #fff; border-radius: 0px; font-size: 16px;" class="o_default_snippet_text">${access_name}</a>
+        <a href="${access_url}" style="background: #36d1dc; background: -webkit-linear-gradient(to right, #36d1dc, #5b86e5);  background: linear-gradient(to right, #36d1dc, #5b86e5);; padding: 20px; text-decoration: none; color: #fff; border-radius: 0px; font-size: 16px;" class="o_default_snippet_text">${access_name}</a>
 	<br><br>
 			
     </center>
@@ -75,7 +75,7 @@ da ${object.company_id.name}.
                       <!-- HEADER -->
                       <tr>
                         <td align="center" style="min-width: 590px;">
-                          <table width="590" border="0" cellpadding="0" bgcolor="#1f9cd9" style="min-width: 590px; background-color: rgb(31,156,217); padding: 20px;">
+                          <table width="590" height="100" border="0" cellpadding="0" bgcolor="#1f9cd9" style="min-width: 590px; background-color: rgb(31,156,217); padding: 20px;">
                             <tr>
                               <td valign="middle">
                                   <span style="font-size:20px; color:white; font-weight: bold;">
@@ -106,7 +106,7 @@ da ${object.company_id.name}.
                       <!-- FOOTER -->
                       <tr>
                         <td align="center" style="min-width: 590px;">
-                          <table width="590" border="0" cellpadding="0" bgcolor="#1f9cd9" style="min-width: 590px; background-color: rgb(31,156,217); padding: 20px;">
+                          <table width="590" height="100" border="0" cellpadding="0" bgcolor="#1f9cd9" style="min-width: 590px; background-color: rgb(31,156,217); padding: 20px;">
                             <tr>
                               <td valign="middle" align="left" style="color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;">
                                 ${user.company_id.name}<br/>
