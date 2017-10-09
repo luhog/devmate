@@ -3,7 +3,7 @@
   <data>
     <template id="report_footer_custom" inherit_id="report.external_layout_footer">
       <xpath expr="//div[@class='footer']" position="replace">
-        <div class="footer" style="text-transform:uppercase;background-color:#1F9CD9;background-image:url(http://ak7.picdn.net/shutterstock/videos/13505777/thumb/1.jpg);">
+        <div class="footer" style="text-transform:uppercase;background-image:url(http://ak7.picdn.net/shutterstock/videos/13505777/thumb/1.jpg);">
           <div class="text-center" style="border-top: 1px solid black;">
             <ul class="list-inline" t-if="not company.custom_footer">
               <li t-if="company.phone">Phone: 
