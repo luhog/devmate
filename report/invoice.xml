@@ -4,7 +4,7 @@
         <template id="report_invoice_custom"
         inherit_id="account.report_invoice_document">
             <xpath expr="//div[@class='page']" position="replace">
-                <div class="page" style="text-transform:uppercase;" t-attf-style="background-image:url('http://ak7.picdn.net/shutterstock/videos/13505777/thumb/1.jpg');background-size:1200px 900px; width:1200px; height:1400px;opacity:0.5;">
+                <div class="page" style="text-transform:uppercase;">
                     <div class="row">
                         <div name="invoice_address" class="col-xs-5 col-xs-offset-7">
                             <address t-field="o.partner_id"
