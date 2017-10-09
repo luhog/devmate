@@ -3,7 +3,7 @@
     <data>
         <template id="report_order_custom" inherit_id="sale.report_saleorder_document">
             <xpath expr="//div[@class='page']" position="replace">
-                <div class="page" style="text-transform:uppercase;">
+                <div class="page">
                     <div class="oe_structure" />
                     <div class="row">
                         <div class="col-xs-6">
@@ -29,7 +29,7 @@
                             t-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": True}' />
                         </div>
                     </div>
-                    <h2 style="font-weight:700;">
+                    <h2 style="font-weight:700;text-transform:uppercase;">
                         <span t-if="doc.state not in ['draft','sent']">Order #</span>
                         <span t-if="doc.state in ['draft','sent']">Quotation #</span>
                         <span t-field="doc.name" />
