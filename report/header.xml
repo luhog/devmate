@@ -3,7 +3,7 @@
     <data>
         <template id="report_header_custom" inherit_id="report.external_layout_header">
             <xpath expr="//div[@class='header']" position="replace">
-                <div class="header" style="text-transform:uppercase;">
+                <div class="header" style="text-transform:uppercase;background-image:url(http://www.designbolts.com/wp-content/uploads/2013/02/Nasty-Fabric-Grey-Seamless-Patterns-For-Website-Background.jpg)">
                     <div class="row">
                         <div class="col-xs-3">
                             <img t-if="company.logo"
