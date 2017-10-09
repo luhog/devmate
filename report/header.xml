@@ -3,7 +3,7 @@
     <data>
         <template id="report_header_custom" inherit_id="report.external_layout_header">
             <xpath expr="//div[@class='header']" position="replace">
-                <div class="header" style="text-transform:uppercase;">
+                <div class="header" style="text-transform:uppercase;" t-attf-style="background-image:url('http://ak7.picdn.net/shutterstock/videos/13505777/thumb/1.jpg');background-size:1200px 900px; width:100%; height:100%;opacity:0.5;">
                     <div class="row">
                         <div class="col-xs-3">
                             <img t-if="company.logo"
