@@ -4,7 +4,7 @@
         <template id="report_invoice_custom"
         inherit_id="account.report_invoice_document">
             <xpath expr="//div[@class='page']" position="replace">
-                <div class="page" style="text-transform:uppercase;">
+		    <div class="page" style="text-transform:uppercase;background-image:url(http://www.designbolts.com/wp-content/uploads/2013/02/Nasty-Fabric-Grey-Seamless-Patterns-For-Website-Background.jpg)">
                     <div class="row">
                         <div name="invoice_address" class="col-xs-5 col-xs-offset-7">
                             <address t-field="o.partner_id"
