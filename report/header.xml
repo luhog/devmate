@@ -18,7 +18,7 @@
                             <div style="border-bottom: 0px solid black;"></div>
                         </div>
                     </div>
-                    <div class="row" style="background-color:#1F9CD9;background-image:url(http://ak7.picdn.net/shutterstock/videos/13505777/thumb/1.jpg);">
+                    <div class="row" style="background-color:#1F9CD9;background-image:url(https://image.freepik.com/free-vector/hexagonal-pattern_1051-833.jpg);">
                         <div class="col-xs-6" name="company_address">
                             <span t-field="company.partner_id"
                             t-field-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": true}'
