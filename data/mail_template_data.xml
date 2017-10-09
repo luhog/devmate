@@ -38,7 +38,7 @@ da ${object.company_id.name}.
     <br/><br/>
 % if is_online:
     <center>
-        <a href="${access_url}" style="background-color: #1f9cd9; padding: 20px; text-decoration: none; color: #fff; border-radius: 0px; font-size: 16px;" class="o_default_snippet_text">${access_name}</a>
+        <a href="${access_url}" style="background: #36d1dc; background: -webkit-linear-gradient(to right, #36d1dc, #5b86e5);  background: linear-gradient(to right, #36d1dc, #5b86e5);; padding: 20px; text-decoration: none; color: #fff; border-radius: 0px; font-size: 16px;" class="o_default_snippet_text">${access_name}</a>
 	<br><br>
 			
     </center>
