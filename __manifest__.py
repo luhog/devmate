@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "betavision",
+    'name': "devmate",
 
     'summary': """
        custom fields and reports""",
@@ -9,8 +9,8 @@
        custom fields and reports
     """,
 
-    'author': "Betavision",
-    'website': "http://www.betavision.com.br",
+    'author': "Devmate",
+    'website': "http://www.devmate.com.br",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
